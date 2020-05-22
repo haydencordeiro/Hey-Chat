@@ -125,7 +125,7 @@ console.log(inptNameText)
 	return (
 		<div className="App">
 			{/* <h1>Chat App name</h1> */}
-      <Typography gutterBottom variant='h3'>Hay Chat</Typography>
+      <Typography gutterBottom variant='h3'>Group To-Do</Typography>
         <NameOrWel></NameOrWel>
       {/* <form  noValidate autoComplete="off"> */}
       {/* <input onChange={GetText}></input> */}
