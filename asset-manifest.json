@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Hey-Chat/static/css/main.ef318c3c.chunk.css",
-    "main.js": "/Hey-Chat/static/js/main.68e78959.chunk.js",
-    "main.js.map": "/Hey-Chat/static/js/main.68e78959.chunk.js.map",
+    "main.js": "/Hey-Chat/static/js/main.8ea75cbf.chunk.js",
+    "main.js.map": "/Hey-Chat/static/js/main.8ea75cbf.chunk.js.map",
     "runtime-main.js": "/Hey-Chat/static/js/runtime-main.e2882c31.js",
     "runtime-main.js.map": "/Hey-Chat/static/js/runtime-main.e2882c31.js.map",
     "static/js/2.5de6aaaa.chunk.js": "/Hey-Chat/static/js/2.5de6aaaa.chunk.js",
     "static/js/2.5de6aaaa.chunk.js.map": "/Hey-Chat/static/js/2.5de6aaaa.chunk.js.map",
     "index.html": "/Hey-Chat/index.html",
-    "precache-manifest.42ff44675cfa7e18ca774048409cef18.js": "/Hey-Chat/precache-manifest.42ff44675cfa7e18ca774048409cef18.js",
+    "precache-manifest.489fc5017d42bbb73450d2a3783c6ccb.js": "/Hey-Chat/precache-manifest.489fc5017d42bbb73450d2a3783c6ccb.js",
     "service-worker.js": "/Hey-Chat/service-worker.js",
     "static/css/main.ef318c3c.chunk.css.map": "/Hey-Chat/static/css/main.ef318c3c.chunk.css.map",
     "static/js/2.5de6aaaa.chunk.js.LICENSE.txt": "/Hey-Chat/static/js/2.5de6aaaa.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e2882c31.js",
     "static/js/2.5de6aaaa.chunk.js",
     "static/css/main.ef318c3c.chunk.css",
-    "static/js/main.68e78959.chunk.js"
+    "static/js/main.8ea75cbf.chunk.js"
   ]
 }
