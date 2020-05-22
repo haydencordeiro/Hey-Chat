@@ -57,7 +57,10 @@ function App() {
  
 }
 
-
+useEffect(
+()=>{GetData()},
+[]
+)
 const GetNameText = (e) => {
   setInptNameText(e.target.value);
   
