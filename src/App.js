@@ -66,7 +66,7 @@ const GetNameText = (e) => {
 
 const NameOrWel=()=>{
   if(inptNameMssg===''){
-    return(<div><TextField id="name-input" size="small" autoFocus onChange={GetNameText} variant="outlined" value={inptNameText} />
+    return(<div><TextField id="name-input" size="small" autoFocus placeholder="Enter Your Name" onChange={GetNameText} variant="outlined" value={inptNameText} />
     <Button variant="contained" color="primary" disableElevation  onClick={SendNameBtn}>
      Send
     </Button></div>);
@@ -153,7 +153,7 @@ console.log(inptNameText)
 			</div>
       {/* <form  noValidate autoComplete="off"> */}
       {/* <input onChange={GetText}></input> */}
-      <TextField id="mssg-input" size="small" onChange={GetText} variant="outlined" value={inptText} />
+      <TextField id="mssg-input" size="small" onChange={GetText} variant="outlined" value={inptText} placeholder="Enter To DO" />
       <Button variant="contained" color="primary" disableElevation  onClick={SendBtn}>
        Send
       </Button>
