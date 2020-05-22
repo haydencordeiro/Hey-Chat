@@ -28,12 +28,7 @@ function App() {
     
   };
 
-  useEffect(
-    ()=>{
-      GetData()
-    },[]
-  )
-  
+
 
 
 
@@ -87,18 +82,29 @@ const NameOrWel=()=>{
     )
   }
 
-  
 }
+
+
 const GetData=()=>
-{const db = firebase.firestore();
+{
+  const db = firebase.firestore();
   db.collection("users")
 .get()
 .then(querySnapshot => {
   const data = querySnapshot.docs.map(doc => doc.data());
   console.log(data); // array of cities objects
-  setMssg(data)
-});
+  setMssg(data)}
+)
+
+
 }
+useEffect(() => {
+  const interval = setInterval(() => {
+    GetData();
+  }, 5000);
+  return () => clearInterval(interval);
+}, []);
+
 
 const SendMssg=async()=>{
   await GetData()
@@ -129,8 +135,8 @@ console.log(inptNameText)
 
 			<div>
 				<Grid container spacing={3}>
-					<Grid item xs={3}></Grid>
-					<Grid item xs={6}>
+					<Grid item xs={1} sm={3}></Grid>
+					<Grid item xs={12} sm={6}>
 						<Grid container spacing={3}>
 							<Grid item xs={12}>
 								{mssg.map((i) => (
@@ -141,7 +147,7 @@ console.log(inptNameText)
 							</Grid>
 						</Grid>
 					</Grid>
-					<Grid item xs={3}></Grid>
+					<Grid item xs={1} sm={3}></Grid>
 				</Grid>
 
 			</div>
